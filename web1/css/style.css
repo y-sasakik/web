@@ -314,7 +314,6 @@ background-size: cover;
   }
   .menu-item dd{
     width: 15%;
-    border-bottom: dotted 1px black;
   }
   .about-content{
     padding: 0;
