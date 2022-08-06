@@ -38,7 +38,7 @@ body.active{
 }
 
 main.active, footer.active{
- opacity: 0;
+  visibility: hidden;
 }
 .btn.active{
   border: none;
@@ -50,9 +50,11 @@ main.active, footer.active{
 }
 
 .btn.active:hover{
+  color: red;
   background: #fff;
 }
 .menu li{
+  color: #fff;
   list-style: none;
  margin-bottom: 20px;
  text-align: center;
@@ -63,7 +65,7 @@ main.active, footer.active{
  
 }
 .menu.active{
-  color: white;
+  color: #fff;
   opacity:1;
   z-index: 5;
 }
@@ -73,12 +75,8 @@ main.active, footer.active{
   position: fixed;
   visibility: visible;
 }
-#navi.active a{
-  color: white;
-}
-#navi.active a:hover{
-  background-color: white; 
-}
+
+
 .hamburger{
   background-color: #ff2a2a;
     position: fixed;
