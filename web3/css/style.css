@@ -228,14 +228,14 @@ main{
   margin: 20px 0 0 20px;
 }
 .slide-right {
-  margin: 20px 0 20px 20px;
+  margin:20px 0 20px auto; 
 }
 @keyframes slide-right {
   0% {
-    transform: translateX(200%);
+    transform: translateX(100%); /* 修正 画面外へ */
   }
   100% {
-    transform: translateX(100%);
+    transform: translateX(0); /* 修正 初期状態(右寄せ)に) */
   }
 }
 
